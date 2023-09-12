@@ -7,10 +7,10 @@ const Hero = () => {
         <img src={logo} alt="Logo" width="110" height="24" />
         <button className="black_btn">GitHub</button>
       </nav>
-      <div>
+      <div className="flex flex-col items-center">
         <h1 className="head_text">
           Summarize Articles with
-          <br className="max-md:hidden" />{" "}
+          <br className="max-sm:hidden" />{" "}
           <span className="orange_gradient bg-clip-text">OpenAI GPT-4</span>
         </h1>
         <h2 className="desc">
